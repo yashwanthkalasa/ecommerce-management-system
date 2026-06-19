@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><B>CUSTOMER REGISTRATION FORM</B></h1>
+    <hr>
+    <u><b>Personal Information</b></u> 
+    <br><br>
+    <form action="product.html">
+        <label for="fn">First Name : </label>
+        <input type="text" placeholder="First Name" name="fn" id="fn">
+        <br/><br/>
+        <label for="fn">Last Name : </label>
+        <input type="text" placeholder="Last Name" name="ln" id="ln">
+        <br><br>
+        <label for="email">Email : </label>
+        <input type="email" placeholder="xyzlakalakak@gmail.com" name="email" id="email">
+        <br><br>
+        <label for="pass">Password : </label>
+        <input type="password" placeholder="Password" name="pass" id="pass">
+        <br><br>
+        <label for="cpass">Confirm Password : </label>
+        <input type="password" placeholder="confirm password" name="cpass" id="cpass">
+        <br><br>
+        <label for="pn">Phone Number : </label>
+        <input type="number" placeholder="Phone Number" name="pn" id="pn">
+        <br><br>
+        <label for="dob">Date Of Birth : </label>
+        <input type="date" placeholder="DOB" name="dob" id="dob">
+        <br><br>
+        <label for="age">Age : </label>
+        <input type="number" min="1" max="100" name="age" id="age" placeholder="age">
+        <br><br>
+        Gender : 
+        <input type="radio" name="gender" id="Male">
+        <label for="Male">MALE</label>
+        <input type="radio" name="gender" id="Female"> 
+        <label for="Female">FEMALE</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">OTHER</label>
+        <br><br>
+        <hr>
+        <u><b>Address Information</b></u>
+        <br><br>
+        <label for="addr1">Address Line 1 :</label>
+        <input type="text" id="addr1" name="addr1" placeholder="House/Flat No., Building Name"  style="height: 20px; width: 200px;">
+        <br><br>
+        <label for="addr2">Address Line 2 :</label>
+        <input type="text" id="addr2" name="addr2" placeholder="Street, Area, Landmark (Optional)" style="height: 20px; width: 200px;">
+        <br><br>
+        <label for="city">City :</label>
+        <input type="text" name="city" id="city" placeholder="city">
+        <br><br>
+        <label for="state">State :</label>
+        <select id="state" name="state">
+        <option value="">Select State / UT</option>
+        <option>Andhra Pradesh</option>
+        <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        <option>Bihar</option>
+        <option>Chhattisgarh</option>
+        <option>Goa</option>
+        <option>Gujarat</option>
+        <option>Haryana</option>
+        <option>Himachal Pradesh</option>  
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Kerala</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Manipur</option>
+        <option>Meghalaya</option>
+        <option>Mizoram</option>
+        <option>Nagaland</option>
+        <option>Odisha</option>
+        <option>Punjab</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Tamil Nadu</option>
+        <option>Telangana</option>
+        <option>Tripura</option>
+        <option>Uttar Pradesh</option>
+        <option>Uttarakhand</option>
+        <option>West Bengal</option>
+        <option>Andaman and Nicobar Islands</option>
+        <option>Chandigarh</option>
+        <option>Dadra and Nagar Haveli and Daman and Diu</option>
+        <option>Delhi</option>
+        <option>Jammu and Kashmir</option>
+        <option>Ladakh</option>
+        <option>Lakshadweep</option>
+        <option>Puducherry</option>
+        </select>
+        <br><br>
+        <label for="country">Country :</label>
+        <select id="country" name="country">
+        <option value="">Select Country</option>
+        <option>India</option>
+        <option>United States</option>
+        <option>United Kingdom</option>
+        <option>Canada</option>
+        <option>Australia</option>
+        <option>Germany</option>
+        <option>France</option>
+        <option>Japan</option>
+        <option>China</option>
+        <option>Singapore</option>
+        <option>UAE</option>
+        <option>Saudi Arabia</option>
+        <option>South Korea</option>
+        <option>Russia</option>
+        <option>Brazil</option>
+        <option>South Africa</option>
+        <option>New Zealand</option>
+        </select>
+        <br><br>
+        <label for="pc">Pincode :</label>
+        <input type="number" name="pc" id="pc" placeholder="pincode">
+        <br><br>
+        <hr>
+        <u><b>Professional Information</b></u>
+        <br><br>
+        <label for="resume">Resume upload :</label>
+        <input type="file" name="resume" id="resume" placeholder="Choose File">
+        <br><br>
+        <label for="exp">Experience :</label>
+        <select id="exp" name="exp">
+        <option>Fresher</option>
+        <option>0-1 Years</option>
+        <option>1-3 Years</option>
+        <option>3-5 Years</option>
+        <option>5-10 Years</option>
+        <option>10+ Years</option>
+        </select>
+        <br><br>
+        <hr>
+        <u><b>Preference</b></u>
+        <br><br>
+        Hobbies : <br><br>
+        <input type="checkbox" name="music" id="music">
+        <label for="music">Music </label><br>
+        <input type="checkbox" name="cod" id="cod">
+        <label for="cod">Coding </label><br>
+        <input type="checkbox" name="sport" id="sport">
+        <label for="sport">Sports </label><br>
+        <input type="checkbox" name="read" id="read">
+        <label for="read">Reading </label><br>
+        <br>
+        <label for="col">Favourite color :</label>
+        <input type="color" name="col" id="col">
+        <br><br>
+        <hr>
+        <input type="checkbox" name="tac" id="tac">
+        <label for="tac">Accept Terms and Conditions</label>
+        <br><br>
+        <button>submit</button> <input type="reset">
+        <hr>
+    </form>
+</body>
+</html>
